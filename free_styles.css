@@ -1,0 +1,28 @@
+.cffree {
+	width: 400px;
+	height: 250px;
+	font-family: arial;
+}
+.cffree_td {
+	padding:4px;
+	font-size:12px;
+}
+.cffree p {
+	padding:4px;
+}
+.cffree label {
+	padding:4px;
+}
+label {
+ padding-right:10px
+}
+.required {
+ font-weight:bold;
+}
+.required_star {
+ font-weight:bold;
+ color:#F00;
+}
+.not-required {
+ font-weight:normal
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Home</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script src="free_validation.js"></script>
+
+	<script>
+
+	required.add('Full_Name','NOT_EMPTY','Full Name');
+
+	required.add('Email_Address','EMAIL','Email Address');
+
+	required.add('Your_Message','NOT_EMPTY','Your Message')
+
+	</script>
+
+    <link rel="stylesheet" type="text/css" href="free_styles.css">
+
+    <style type="text/css">
+
+<!--
+
+.style1 {color: #333333}
+
+.style2 {font-size: 12px}
+
+.style3 {
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+	font-size: 14px;
+
+}
+
+.style4 {
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+}
+
+-->
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="header_container">
+
+	<div id="header">
+
+		<a href="#"><img src="images/logo.png" alt="Total Management" width="450" border="0" title="Total Management" /></a>
+
+<ul>
+
+			<li ><a href="index.html" >Home</a> </li>
+
+	  <li ><a href="failed.html">Inventory</a></li>
+
+			<li ><a href="failed.html">About</a></li>
+
+	  <li ><a href="failed.html">Disclaimer</a></li>
+
+	  <li ><a href="failed.html">Reviews</a></li>
+
+	  <li class="contact"><a href="https://secure.carsforsale.com/finance.aspx?sid=7536&amp;jesxel=296828&amp;hla=0&amp;bgcolor=%23ffffff&amp;lid=-1&amp;vid=-1">Loan App.</a></li>
+
+	  </ul>
+
+	  <h1>&nbsp;</h1>
+
+  </div>
+
+</div>
+
+<div id="body1">
+
+	<form action="#" method="get" >
+
+		<label>Members Login: <span class="style2">Use your Promo Code to see dealer cost.</span><br />
+
+		<br />
+
+	  </label>
+
+	</form>
+
+</div>
+
+<div id="bodymiddlePan">
+
+<script type = "text/javascript">
+
+
+
+var count = 2;
+
+function validate() {
+
+var un = document.myform.username.value;
+
+var pw = document.myform.pword.value;
+
+var valid = false;
+
+
+
+var unArray = ["Promo"];  // as many as you like - no comma after final entry
+
+var pwArray = ["GOTEAM" ];  // the corresponding passwords;
+
+
+
+for (var i=0; i <unArray.length; i++) {
+
+if ((un == unArray[i]) && (pw == pwArray[i])) {
+
+valid = true;
+
+break;
+
+}
+
+}
+
+
+
+if (valid) {
+
+alert ("Login was successful");
+
+window.location = "disclaimer.html";
+
+return false;
+
+}
+
+
+
+var t = " tries";
+
+if (count == 1) {t = " try"}
+
+
+
+if (count >= 1) {
+
+alert ("Invalid Promo Code and/or password.  You have " + count + t + " left.");
+
+document.myform.username.value = "";
+
+document.myform.pword.value = "";
+
+setTimeout("document.myform.username.focus()", 25);
+
+setTimeout("document.myform.username.select()", 25);
+
+count --;
+
+}
+
+
+
+else {
+
+alert ("Still incorrect! You have no more tries left!");
+
+document.myform.username.value = "No more tries allowed!";
+
+document.myform.pword.value = "";
+
+document.myform.username.disabled = true;
+
+document.myform.pword.disabled = true;
+
+return false;
+
+}
+
+
+
+}
+
+
+
+</script>
+
+
+
+<form name = "myform">
+
+<p>&nbsp;</p>
+
+<p>
+
+  <span class="style4">
+  <input name="username" type="hidden" id="hiddenField" value="Promo" />
+  Enter Promo Code here.</span>
+
+  <input name="pword" type="password" size="5" maxlength="6" />
+
+    <input type="button" value="Click To Enter" name="Submit" onclick= "validate()">
+</p>
+
+</form>
+
+	<h2>Welcome to SunCoastAutoSales </h2>
+
+  <p>To view the dealers cost you MUST be a member of our Co-Op program. Please log in with the Promo Code, which is found on the business exchange directory of your Team National website, under SunCoast Auto Sales.
+</p>
+
+</div>
+
+</div>
+
+<div id="bottomPan">
+
+	<div id="bottomMainPan">
+
+		<div id="bottomBorderPan">
+
+			<h2>Contact Us.</h2>
+
+			<ul>
+
+				<li><a href="#">Lorem Ipsum has been the</a></li>
+
+				<li></li>
+
+				<li><a href="failed.html">Recent Co-Op Savers!</a></li>
+
+			  <li><a href="failed.html">Locations? </a></li>
+
+			  <li></li>
+
+		  </ul>
+
+		<form name="contactformfree" method="post" action="free_process.php" onSubmit="return validate.check(this)">
+
+	<table width="400px" class="cffree">
+
+	<tr>
+
+	 <td colspan="2">
+
+	  <p style="text-align:center"><span class="style1">Fields marked with</span> <span class="required_star"> * </span> <span class="style1">are required.</span></p>	 </td>
+
+	</tr>
+
+	<tr>
+
+	 <td valign="top" class="cffree_td">
+
+	  <label for="Full_Name" class="required"><span class="style1">Full Name</span><span class="required_star"> * </span></label>	 </td>
+
+	 <td valign="top" class="cffree_td">
+
+	  <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:250px">	 </td>
+
+	</tr>
+
+	<tr>
+
+	 <td valign="top" class="cffree_td">
+
+	  <label for="Email_Address" class="required"><span class="style1">Email Address</span><span class="required_star"> * </span></label>	 </td>
+
+	 <td valign="top" class="cffree_td">
+
+	  <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:250px">	 </td>
+
+	</tr>
+
+	<tr>
+
+	 <td valign="top" class="cffree_td">
+
+	  <label for="Telephone_Number" class="not-required style1">Telephone Number</label>	 </td>
+
+	 <td valign="top" class="cffree_td">
+
+	  <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:250px">	 </td>
+
+	</tr>
+
+	<tr>
+
+	 <td valign="top" class="cffree_td">
+
+	  <label for="Your_Message" class="required"><span class="style1">Your Message </span><span class="required_star">* </span></label>	 </td>
+
+	 <td valign="top" class="cffree_td">
+
+	  <textarea style="width:250px;height:100px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>	 </td>
+
+	</tr>
+
+	<tr>
+
+	 <td colspan="2" style="text-align:center"  class="cffree_td"><span class="cffree_td" style="text-align:center">
+
+	   <input type="submit" value=" Submit Form " />
+
+	 </span><br />	 </td>
+
+	</tr>
+
+	</table>
+
+	</form>
+
+	</div>
+
+	</div>
+
+</div>
+
+<div id="footermainPan">
+
+	<div id="footerPan">
+
+	  <div align="center"><br/>
+
+	  SunCoastAutoSales.com</span> &nbsp;&copy; &nbsp;2016<br/>
+
+      </div>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>

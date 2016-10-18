@@ -1,0 +1,51 @@
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Installation of the Free version:
+
+===========
+Step One:
+===========
+Open the file 'free_settings.php' using a code/plain text Editor.
+
+The file will look like this: -
+
+<?php
+
+$email_to = "youremailaddress@yourdomain.com"; // your email address
+$email_subject = "Contact Form Message"; // email subject line
+$thankyou = "thankyou.htm"; // thank you page
+
+?>
+
+Enter your email address in place of youremailaddress@yourdomain.com
+
+Change the email subject (if you like)
+
+Change your thank you page reference (if you like)
+
+Save the file.
+
+===========
+Step Two:
+===========
+
+Copy ALL files onto your website using an FTP program (filezilla for example)
+
+
+===========
+
+
+Want to incorporate the form into your own design?
+
+Copy the HTML from contactform.htm and paste it into your existing page.
+
+
